@@ -1,4 +1,4 @@
-"""Adevent 2023 day 01"""
+"""Adevent 2023 Day 1: Trebuchet?"""
 
 from enum import Enum
 import sys
@@ -104,7 +104,7 @@ print(total)
 
 # output
 total = 0
-with open('/Users/isaias/Desktop/ai-repo/advent2023/day01/day01.txt') as f:
+with open('day01.txt') as f:
   amended_document = parse(f.read())
   for amended_line in amended_document:
     total += calibration_value(amended_line)
